@@ -1,0 +1,14 @@
+body {
+  background: $color-background;
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center;
+}
+
+body:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.container {
+  margin: 0 auto;
+}

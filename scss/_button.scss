@@ -1,0 +1,30 @@
+.fa {
+  color: $color-font-2;
+  font-size: 1rem;
+}
+.delete {
+  background: $color-header-bg;
+  border-style: hidden;
+  padding-left: 2rem;
+}
+.fa:focus {
+  outline: 0;
+}
+.fa:hover {
+  color: $color-background;
+}
+.save, .delete-list {
+  padding: .5rem 1.5rem;
+  color: $color-font-2;
+  background-color: $color-background;
+  border: 1px solid $color-font-2;
+  border-style: hidden;
+  border-radius: .5rem;
+  display: inline-block;
+  font-size: .75rem;
+  margin-top: 1rem;
+}
+.save:hover, .delete-list:hover{
+  background: $color-font-2;
+  color: $color-offwhite;
+}

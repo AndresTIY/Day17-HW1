@@ -1,0 +1,22 @@
+.card {
+  background: $color-header-bg;
+  color: $color-font-2;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid;
+  width: 30%;
+  // float: left;
+  display: inline-block;
+  margin: 2rem 2rem;
+  .list-title {
+    margin-top: 0;
+  }
+  .list-item {
+    padding: .5rem;
+    font-size: .75rem;
+    list-style: none;
+  }
+  ul {
+    padding-left: 0;
+  }
+}

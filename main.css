@@ -1,0 +1,69 @@
+body {
+  background: #0F1D2A;
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center; }
+
+body:after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.container {
+  margin: 0 auto; }
+
+.top {
+  background: #294e70;
+  color: #A9DDF3;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid; }
+
+.card {
+  background: #294e70;
+  color: #A9DDF3;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid;
+  width: 30%;
+  display: inline-block;
+  margin: 2rem 2rem; }
+  .card .list-title {
+    margin-top: 0; }
+  .card .list-item {
+    padding: .5rem;
+    font-size: .75rem;
+    list-style: none; }
+  .card ul {
+    padding-left: 0; }
+
+.fa {
+  color: #A9DDF3;
+  font-size: 1rem; }
+
+.delete {
+  background: #294e70;
+  border-style: hidden;
+  padding-left: 2rem; }
+
+.fa:focus {
+  outline: 0; }
+
+.fa:hover {
+  color: #0F1D2A; }
+
+.save, .delete-list {
+  padding: .5rem 1.5rem;
+  color: #A9DDF3;
+  background-color: #0F1D2A;
+  border: 1px solid #A9DDF3;
+  border-style: hidden;
+  border-radius: .5rem;
+  display: inline-block;
+  font-size: .75rem;
+  margin-top: 1rem; }
+
+.save:hover, .delete-list:hover {
+  background: #A9DDF3;
+  color: #FAFAFA; }
+
+/*# sourceMappingURL=main.css.map */
